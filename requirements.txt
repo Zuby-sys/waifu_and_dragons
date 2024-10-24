@@ -1,0 +1,9 @@
+blinker
+charset-normalizer
+click
+Flask
+Jinja2
+MarkupSafe
+requests
+urllib3
+waitress

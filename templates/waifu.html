@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваше вайфу!</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+</head>
+
+<body background="https://images.hdqwalls.com/download/yae-sakura-benghuai-xueyuan-hd-nf-2048x1152.jpg" no-repeat center center fixed;
+background-size: cover;
+>
+    <h1 style="background-color:white; border: 5px dashed; width: 500px; text-align:center;">  
+    <img src=" {{ waifu_img }} " width="400" height="400">
+    Вашка вайфашка!
+</h1>
+    <h1 style="background-color:white; border: 5px; width: 900px; text-align:center;">
+        Тэги : waifu | neko | shinobu | megumin | bully | cuddle | cry | hug | awoo | kiss | lick | pat | smug | bonk |
+        yeet | blush | smile | wave | highfive |
+        handhold | nom | bite | glomp | slap | kill | kick | happy | wink | poke | dance | cringe
+    </h1>
+    <form action="/waifu">
+        <input style="width: 250px; height: 35px;" type="text" name="waifu" placeholder="Введите свой типаж" />
+        <button style="width: 100px; height: 40px;" type="submit">Найти снова</button>
+    </form>
+</body>
+
+</html>
